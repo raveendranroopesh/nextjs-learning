@@ -5,7 +5,7 @@ export default function Page({ params }: { params: { id: string } }) {
   const post = posts.find((post) => post.id === params.id);
   return (
     <>
-      <h1 className="text-purple-800">Post</h1>
+      <h1 className="text-emerald-600">Post</h1>
       {post && <Post {...post} />}
     </>)
 }
